@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio - Villanueva</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+<body>
+    
+<!-- navbar section starts  -->
+
+<nav class="navbar">
+    <a href="home.html"> <i class="fas fa-home"></i> <span>Inicio</span> </a>
+    <a href="about.html"> <i class="fas fa-user"></i> <span>Acerca de mi</span> </a>
+    <a href="portfolio.html"> <i class="fas fa-briefcase"></i> <span>Portfolio</span> </a>
+
+</nav>
+
+<!-- navbar section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio">
+
+    <h1 class="heading"> <span>mi</span> trabajo </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/ecommerce.png" alt="">
+            <div class="content">
+                <h3>Proyecto GYM Breddy</h3>
+                <p>Sitio web ecommerce  para la venta de diferentes productos de gimnasio implementando un carrito de compras con línea de pago y pago en línea con PayPal y administración de horarios del mismo.</p>
+        <a href="" data-toggle="modal" data-target=".bd-example-modal-lg">Leer más</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/freelancer.png" alt="">
+            <div class="content">
+                <h3>Proyecto ITFreelancer</h3>
+                <p>Sitio web para la contratación de profesionistas para la elaboración de proyectos web, en el cual se implementó un chat para la interacción entre cliente y profesionista.</p>
+               <a href="" data-toggle="modal" data-target=".modalITFreelancer">Leer más</a>
+            </div>
+        </div>
+
+       
+        <div class="box">
+            <img src="images/ecommerce2.jpg" alt="">
+            <div class="content">
+                <h3>Proyecto Galletas DARM</h3>
+                <p>Sitio web ecommerce  para la venta de diferentes galletas implementando un carrito de compras y pago PayPal</p>
+                 <a href="" data-toggle="modal" data-target=".modalGalletasDARM">Leer más</a>
+            </div>
+        </div>
+
+
+    </div>
+    
+</section>
+
+<section class="contact">
+
+<h1 class="heading"> contacta <span>me</span> </h1>
+
+<div class="row">
+
+    <div class="info-container">
+
+        <h1>Ponte en contacto</h1>
+
+        <p>Contactame para la elaboracion de algun proyecto</p>
+
+         <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-map"></i>
+                <div class="info">
+                    <h3>Direccion :</h3>
+                    <p> Nezahualcóyotl, Estado de Mexico - 57000 </p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                    <h3>Correo :</h3>
+                    <p>xbox-eddy2012@hotmail.com</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a target="_blank" href="https://www.facebook.com/EddyBrandonHD" class="fab fa-facebook-f"></a>
+            <a target="_blank" href="https://twitter.com/EddyBrandonHD" class="fab fa-twitter"></a>
+            <a target="_blank" href="https://www.instagram.com/eddybrandongg/" class="fab fa-instagram"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/eddybrandonhd" class="fab fa-linkedin"></a>
+        </div>
+
+
+    </div>
+<form action="">
+        <div class="inputBox">
+            <input type="text" placeholder="tu nombre">
+            <input type="number" placeholder="tu numero">
+        </div>
+
+        <div class="inputBox">
+            <input type="email" placeholder="tu correo">
+            <input type="text" placeholder="tu asunto">
+        </div>
+
+        <textarea name="" placeholder="tu mensaje" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="enviar mensaje" class="btn">
+
+</form>
+     
+
+
+</div>
+
+</section>
+
+<!-- Modal Galleteria -->
+
+<div class="modal fade bd-example-modal-lg modalGym" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+              <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Proyecto GYM Breddy</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+          <div class="modal-body">
+
+                
+                <p> El sitio web constaba de una pagina ecommerce en el cual el cliente podía acceder a ver los productos existentes y agregarlos a un carrito de compras, pero para esto necesitaba estar registrado, ya que se utilizaba la base de datos para añadir sus productos a su carrito y cuando estuviera listo su carrito podía acceder a realizar un pago con dos opciones una línea de pago y pagar en un Oxxo o por medio de PayPal. Igual se contaba con un apartado para el entrenador de gym pudiera organizar sus horarios y así el cliente pudiera acceder a sus horarios para asignar la hora en la que necesitaba ir.</p>
+<br>
+                <h2>Desarrollo</h2>
+
+    <ul>
+  <li>Se utilizo PHP estructurado</li>
+  <li>Base de datos MySQL</li>
+  <li>Elaboración Manual Técnico</li>
+  <li>Elaboración Manual Usuario</li>
+   <li>Proyecto Finalizado</li>
+   <li>Plugin PayPal</li>
+</ul>
+
+    <br>
+
+      <center><img src="images/GymBreddy.png"  width="560" height="415" /></center> 
+                            <br>
+                            <br>
+<p> El proyecto no se encuentra en un host actualmente, fue ganador de una competición de la universidad Tecnológica de Nezahualcóyotl en la cual participaron varios equipos de informática en donde cada equipo presento proyectos diferentes</p>
+
+  <center> <img src="images/reconocimiento.jpeg"  width="560" height="615" />
+ </center>
+      </div>
+
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+  </div>
+</div>
+
+
+<!-- Modal Freelancer -->
+<div class="modal fade bd-example-modal-lg modalITFreelancer" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+              <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Proyecto ITFreelancer</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+          <div class="modal-body">
+
+                
+                <p> El sitio web constaba en que el usuario se podía registrar para poder buscar algún profesionista que lo ayudará a desarrollar algún proyecto nuevo o existente, en este caso al registrarse se le mostraba un catálogo de diferentes profesionistas disponibles para atender cualquier proyecto. <br>
+                Los profesionistas contaban con evaluaciones para que el cliente escogiera de acuerdo a sus necesidades. Una vez que de hizo la selección se le mandaba la solicitud y este decidía si la aceptaba o no; en dado caso de que aceptará se le habilitaba un chat para la comunicación de los términos que se necesitaban y al finalizar todo el proyecto finalizaba el chat para proceder a la evaluación de ambos.</p>
+<br>
+                <h2>Desarrollo</h2>
+
+                    <ul>
+      <li>Se utilizo PHP estructurado</li>
+      <li>Base de datos MySQL</li>
+      <li>Elaboración Manual Técnico</li>
+      <li>Elaboración Manual Usuario</li>
+       <li>Proyecto Finalizado</li>
+    </ul>
+
+    <br>
+
+                            <iframe  class="imagen-destacada" width="760" height="415" src="https://www.youtube.com/embed/C2OgwRr4pdQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <br>
+                            <br>
+                                <p> El proyecto no se encuentra en un host actualmente, pero se cuenta con una grabación de vídeo en donde se explica el funcionamiento del sitio web, el cual fue desarrollado en conjunto con mi equipo de trabajo, en donde desarrolle el rol de programación y base de datos.</p>
+      </div>
+
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+  </div>
+</div>
+
+
+<!-- Modal Galleteria -->
+
+<div class="modal fade bd-example-modal-lg modalGalletasDARM" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+              <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Proyecto GalletasDARM</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+          <div class="modal-body">
+
+                
+                <p> El sitio web constaba de una página ecommerce en el cual el cliente podía ver los productos existentes y agregarlos a un carrito de compras sin la necesidad de estar registrados en el portal, pero al momento de intentar pagar se te solicitaba iniciar sesión para proceder a realizar el pago de PayPal, al finalizar la compra el cliente puede calificar y agregar sus comentarios al producto, al igual que puede agregar productos a una lista de deseos para comprar después.</p>
+<br>
+                <h2>Desarrollo</h2>
+
+    <ul>
+  <li>Se utilizo PHP MVC</li>
+  <li>Base de datos MySQL</li>
+  <li>Elaboración Manual Técnico</li>
+  <li>Elaboración Manual Usuario</li>
+   <li>Proyecto Finalizado</li>
+   <li>Plugin PayPal</li>
+</ul>
+
+    <br>
+
+       <embed src="GalletasDARM.pdf" type="application/pdf"  width="760" height="615" />
+                            <br>
+                            <br>
+<p> El proyecto no se encuentra en un host actualmente, pero se cuenta con un archivo PDF en el cual se muestra la documentación y capturas de pantalla de una versión preliminar del proyecto.
+Este proyecto únicamente lo elaboré yo, en donde me encargaba de realizar la documentación y la programación.</p>
+      </div>
+
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+  </div>
+</div>
+
+
+
+<!-- portfolio section ends -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+
